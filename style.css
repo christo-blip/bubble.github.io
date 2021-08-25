@@ -1,0 +1,45 @@
+body{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ background-color: aquamarine; 
+
+}
+
+.top, .right, .bottom, .left{
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black; 
+}
+.top, .bottom{
+    height: 90px;
+    width: 180px;
+}
+.right, .left{
+    height: 180px;
+    width:90px;
+}
+
+.top{
+    border-top-left-radius: 90px;    
+border-top-right-radius: 90px;
+}
+
+.right{
+    border-bottom-right-radius: 90px;    
+    border-top-right-radius: 90px;
+    
+}
+.bottom{
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.left{
+
+    border-bottom-left-radius: 90px;    
+border-top-left-radius: 90px;
+
+}
